@@ -18,11 +18,7 @@ function Lista() {
             <ul>
                 {/* colocando chaves para escrever Javascript dentro do html */}
                 {tarefas.map((item, index) => (
-                    // esta "key" será omitida no front end
-                    <li key={index} className={style.item}>
-                        <h3>{item.tarefa}</h3>
-                        <span> {item.tempo} </span>
-                    </li>
+                    
                 ))}
             </ul>
         </aside>
